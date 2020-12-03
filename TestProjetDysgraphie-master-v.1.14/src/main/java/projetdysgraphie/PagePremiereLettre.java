@@ -504,11 +504,6 @@ public class PagePremiereLettre extends javax.swing.JFrame {
             Logger.getLogger(PagePremiereLettre.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException ex) {
-            Logger.getLogger(PagePremiereLettre.class.getName()).log(Level.SEVERE, null, ex);
-        }
         p.setVisible(true);
         try {
             saveFile();
